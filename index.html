@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LanguageAce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <script src="/public/loadHeader.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const vocabularyCards = document.querySelectorAll('.card[id="vocabulary"]');
+            vocabularyCards.forEach((card, index) => {
+                card.addEventListener('click', function() {
+                    window.location.href = `vocabulary.html?unit=${index + 1}`;
+                });
+            });
+        });
+    </script>
+    <main>
+        <h1 class="welcome">Welcome Back to Your <span class="sp-red">Sp</span><span class="sp-yellow">ani</span><span class="sp-red">sh</span> Practice!</h1>
+        <h1 class="unit">Unit 1</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>In this unit, you'll immerse yourself in the vibrant world of <span style="font-weight: bold; ">colors</span>. You'll learn to describe objects with a spectrum of hues, from the fiery red to the tranquil blue, enabling you to add a splash of personality to your conversations in English.</p>
+                <p>En este módulo, te sumergirás en el vibrante mundo de <span style="font-weight: bold; ">los colores</span>. Aprenderás a describir objetos con una variedad de tonalidades, desde el ardiente rojo hasta el tranquilo azul, lo que te permitirá agregar un toque de personalidad a tus conversaciones en inglés.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In this unit, you will delve into the intriguing realm of <span style="font-weight: bold; ">definite and indefinite articles</span> in Spanish. Mastering these linguistic tools is crucial for constructing clear and precise sentences, as you distinguish between "the" and "a/an" in your language learning journey.</p>
+                <p>En este módulo, te adentrarás en el fascinante mundo de <span style="font-weight: bold; ">los artículos definidos e indefinidos</span> en español. Dominar estas herramientas lingüísticas es fundamental para construir oraciones claras y precisas, a medida que distingues entre "el/la/los/las" y "un/una/unos/unas" en tu proceso de aprendizaje del idioma.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Have a chat about <span style="font-weight: bold; ">colors</span> and learn to construct basic sentences with definite and indefinite articles!</p>
+            </div>
+        </div>
+        <h1 class="unit">Unit 2</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>Explore the concept of family in Unit 2, where you'll acquire the terminology to discuss your relatives and relationships. From parents and siblings to aunts, uncles, and cousins, you'll be able to describe your kinfolk in English and Spanish, making your language skills truly family-oriented.</p>
+                <p>Explora el concepto de la familia en la Unidad 2, donde adquirirás el vocabulario para hablar de tus parientes y relaciones. Desde padres y hermanos hasta tías, tíos y primos, podrás describir a tus familiares en inglés y español, haciendo que tus habilidades lingüísticas estén realmente orientadas hacia la familia.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In Unit 2, you'll delve into the world of nouns and gender in Spanish. You'll discover how nouns are categorized as masculine or feminine, gaining insights into the grammatical intricacies that bring life to the language.</p>
+                <p>En la Unidad 2, te adentrarás en el mundo de los sustantivos y el género en español. Descubrirás cómo los sustantivos se categorizan como masculinos o femeninos, obteniendo información sobre las complejidades gramaticales que dan vida al idioma.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Discuss your family with our artificial tutor!</p>
+            </div>
+        </div>
+        <h1 class="unit">Unit 3</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>Unit 3 is all about food and drinks, giving you the ability to savor conversations about cuisine in both English and Spanish. You'll learn the names of delectable dishes, beverages, and culinary experiences, making your language learning journey a delightful feast.</p>
+                <p>La Unidad 3 trata sobre alimentos y bebidas, brindándote la capacidad de saborear conversaciones sobre la cocina en inglés y español. Aprenderás los nombres de deliciosos platillos, bebidas y experiencias culinarias, convirtiendo tu proceso de aprendizaje del idioma en un festín delicioso.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In this unit, you will master subject pronouns in Spanish. Subject pronouns are essential for forming sentences and expressing who is performing the action. You'll be able to say "I eat" or "He drinks" with ease, enhancing your conversational skills.</p>
+                <p>En esta unidad, dominarás los pronombres sujetos en español. Los pronombres sujetos son esenciales para formar oraciones y expresar quién está realizando la acción. Podrás decir "Yo como" o "Él bebe" con facilidad, mejorando tus habilidades conversacionales.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, non commodo ante. Morbi sit amet consectetur est. Sed ultrices purus eget urna cursus luctus.</p>
+            </div>
+        </div>
+        <h1 class="unit">Unit 4</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>Unit 4 transports you to the world of school, where you'll learn vocabulary related to classrooms, subjects, and educational settings. From books and pens to teachers and students, you'll be well-equipped to discuss your academic experiences in both English and Spanish.</p>
+                <p>La Unidad 4 te transporta al mundo de la escuela, donde aprenderás vocabulario relacionado con aulas, materias y entornos educativos. Desde libros y bolígrafos hasta profesores y estudiantes, estarás bien preparado para hablar sobre tus experiencias académicas en inglés y español.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In this unit, you will tackle verb conjugation in Spanish. Conjugating verbs is the key to expressing actions and events accurately. You'll learn how to say "I study," "You learn," and "They teach" with precision, empowering your language skills.</p>
+                <p>En esta unidad, abordarás la conjugación de verbos en español. Conjugas verbos es la clave para expresar acciones y eventos de manera precisa. Aprenderás a decir "Yo estudio", "Tú aprendes" y "Ellos enseñan" con precisión, fortaleciendo tus habilidades lingüísticas.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Lorem</p>
+            </div>
+        </div>
+        <h1 class="unit">Unit 5</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>Unit 5 takes you on a stylish journey into the world of clothes. You'll expand your wardrobe of words in both English and Spanish, learning how to describe garments, styles, and fashion trends. From chic dresses to comfy sweaters, you'll be ready to engage in fashion-forward conversations.</p>
+                <p>La Unidad 5 te lleva en un elegante viaje al mundo de la ropa. Ampliarás tu vestuario de palabras en inglés y español, aprendiendo a describir prendas, estilos y tendencias de moda. Desde vestidos elegantes hasta suéteres cómodos, estarás listo para participar en conversaciones a la moda.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In Unit 5, you'll tackle irregular verbs in Spanish. These verbs have unique conjugation patterns that you'll master to express actions that don't follow the regular rules. You'll be able to say "I have," "You go," and "She does" with confidence, adding versatility to your language skills.</p>
+                <p>En esta unidad, abordarás los verbos irregulares en español. Estos verbos tienen patrones de conjugación únicos que dominarás para expresar acciones que no siguen las reglas regulares. Podrás decir "Yo tengo", "Tú vas" y "Ella hace" con confianza, agregando versatilidad a tus habilidades lingüísticas.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Lorem</p>
+            </div>
+        </div>
+        <h1 class="unit">Unit 6</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>Unit 6 explores the human body and empowers you to discuss it confidently in both English and Spanish. You'll learn the names of body parts, allowing you to describe health, injuries, and well-being. From head to toe, you'll be equipped to engage in meaningful conversations about the body.</p>
+                <p>La Unidad 6 explora el cuerpo humano y te permite hablar de él con confianza en inglés y español. Aprenderás los nombres de las partes del cuerpo, lo que te permitirá describir la salud, lesiones y bienestar. Desde la cabeza hasta los pies, estarás preparado para participar en conversaciones significativas sobre el cuerpo.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In this unit, you'll delve into the verbs "ser" and "estar" in Spanish. These two verbs are essential for expressing identity, characteristics, and states of being. You'll learn how to say "I am happy," "You are tired," and "They are friendly," enabling you to convey nuanced meanings.</p>
+                <p>En esta unidad, te adentrarás en los verbos "ser" y "estar" en español. Estos dos verbos son esenciales para expresar identidad, características y estados de ser. Aprenderás a decir "Yo soy feliz", "Tú estás cansado" y "Ellos son amables", lo que te permitirá transmitir significados matizados.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Lorem</p>
+            </div>
+        </div>
+        <h1 class="unit">Unit 7</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>Unit 7 focuses on feelings, wishes, and opinions. You'll acquire a rich vocabulary of adjectives in both English and Spanish to express your emotions and thoughts effectively. From joyful and optimistic to surprised and disappointed, you'll be ready to articulate your inner world. </p>
+                <p>La Unidad 7 se centra en sentimientos, deseos y opiniones. Adquirirás un rico vocabulario de adjetivos en inglés y español para expresar tus emociones y pensamientos de manera efectiva. Desde alegre y optimista hasta sorprendido y decepcionado, estarás listo para articular tu mundo interior.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In this unit, you'll explore the use of adjectives in Spanish to convey feelings and opinions. You'll learn how to describe people, objects, and situations with precision, allowing you to express yourself fluently in various contexts.</p>
+                <p>En esta unidad, explorarás el uso de adjetivos en español para expresar sentimientos y opiniones. Aprenderás a describir personas, objetos y situaciones con precisión, lo que te permitirá expresarte con fluidez en diversos contextos.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Lorem</p>
+            </div>
+        </div>
+        <h1 class="unit">Unit 8</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>Unit 8 introduces you to the world of jobs and workplaces. You'll gain the vocabulary needed to discuss professions and employment in both English and Spanish. From doctors and engineers to offices and factories, you'll be equipped to engage in conversations about careers.</p>
+                <p>La Unidad 8 te presenta el mundo de los trabajos y lugares de trabajo. Obtendrás el vocabulario necesario para hablar sobre profesiones y empleo en inglés y español. Desde médicos e ingenieros hasta oficinas y fábricas, estarás preparado para participar en conversaciones sobre carreras.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In this unit, you'll master indirect and direct object pronouns in Spanish. These pronouns are essential for expressing who or what is the recipient of the action in a sentence. You'll learn how to say "I give it to you," "She tells him," and "We help them," enhancing your ability to communicate effectively.</p>
+                <p>En esta unidad, dominarás los pronombres de objeto indirecto y directo en español. Estos pronombres son esenciales para expresar quién o qué recibe la acción en una oración. Aprenderás a decir "Yo te lo doy", "Ella le dice" y "Nosotros les ayudamos", mejorando tu capacidad para comunicarte de manera efectiva.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Lorem</p>
+            </div>
+        </div>
+        <h1 class="unit">Unit 9</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>Unit 9 immerses you in the wonders of nature. You'll learn vocabulary related to the environment, natural phenomena, and outdoor activities in both English and Spanish. From mountains and rivers to hiking and camping, you'll be equipped to discuss the beauty of the natural world.</p>
+                <p>La Unidad 9 te sumerge en las maravillas de la naturaleza. Aprenderás vocabulario relacionado con el medio ambiente, fenómenos naturales y actividades al aire libre en inglés y español. Desde montañas y ríos hasta senderismo y camping, estarás preparado para hablar sobre la belleza del mundo natural.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In this unit, you'll explore reflexive verbs in Spanish. Reflexive verbs are used when the subject of the action is also the recipient, such as "I wash myself" or "She dresses herself." You'll acquire the skills to express self-directed actions accurately, enhancing your ability to describe daily routines.</p>
+                <p>En esta unidad, explorarás los verbos reflexivos en español. Los verbos reflexivos se utilizan cuando el sujeto de la acción también es el receptor, como "Yo me lavo" o "Ella se viste". Adquirirás las habilidades para expresar acciones auto-dirigidas con precisión, mejorando tu capacidad para describir rutinas diarias.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Lorem</p>
+            </div>
+        </div>
+        <h1 class="unit">Unit 10</h1>
+        <div class="card-container">
+            <div class="card" id="vocabulary">
+                <h2>Vocabulary</h2>
+                <p>Unit 10 invites you to explore the animal kingdom while also delving into the past. You'll learn vocabulary related to various animals and their activities in the past tense, allowing you to discuss wildlife encounters and animal behaviors in both English and Spanish. From birds soaring through the sky to fish swimming in the deep, you'll be ready to share fascinating animal stories from the past.</p>
+                <p>La Unidad 10 te invita a explorar el reino animal mientras te sumerges en el pasado. Aprenderás vocabulario relacionado con varios animales y sus actividades en tiempo pasado, lo que te permitirá hablar de encuentros con la vida silvestre y comportamientos animales en inglés y español. Desde aves que surcan el cielo hasta peces que nadan en lo profundo, estarás listo para compartir fascinantes historias de animales del pasado.</p>
+            </div>
+            <div class="card" id="grammar">
+                <h2>Grammar</h2>
+                <p>In this unit, you will conquer the past tense in Spanish, enabling you to recount events involving animals in a narrative form. You'll learn how to say "The lion roared," "The monkey swung," and "The dolphins played," adding depth and vividness to your animal-related storytelling skills.</p>
+                <p>En esta unidad, conquistarás el tiempo pasado en español, lo que te permitirá relatar eventos relacionados con animales en forma narrativa. Aprenderás a decir "El león rugió", "El mono se balanceó" y "Los delfines jugaron", agregando profundidad y vivacidad a tus habilidades para contar historias sobre animales.</p>
+            </div>
+            <div class="card" id="chat">
+                <h2>Chat</h2>
+                <p>Lorem</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

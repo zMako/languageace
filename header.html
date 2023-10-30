@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/public/styles.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <img src="/public/logo.png" alt="Logo" id="logo">
+        <div class="dropdown">
+            <div class="profile">
+                <img alt="Profile Picture" id="pfp">
+                <span id="username"></span>
+            </div>
+            <div class="dropdown-content">
+                <a href="#">Profile</a>
+                <a href="#">Scores</a>
+                <a href="#">Languages</a>
+                <a href="#">Homework</a>
+                <a href="#">Settings</a>
+                <a href="/logout">Logout</a>
+            </div>
+            <div class="dropdown-content" id="logged-out-dropdown">
+                <a href="/login">Login</a>
+                <a href="/register">Register</a>
+            </div>
+        </div>
+    </header>
+    <script src="/public/scripts.js"></script>
+</body>
+</html>
