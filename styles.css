@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* Increased padding for a bigger header */
+    background-color: #f5cc73;
+}
+
+#logo {
+    height: 70px; /* Increased size for logo */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#pfp {
+    border-radius: 50%;
+    height: 70px;  /* Increased size for profile picture */
+    width: 70px;   /* Ensure it's a circle, not an oval */
+    margin-right: 20px;
+    object-fit: cover; /* Ensure the image is cropped correctly */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 80px;  /* Adjusted to account for the bigger header */
+    right: 30px; /* Adjusted to account for the bigger header */
+    background-color: #f2eec0;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #e7bdc2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Sets the direction to column */
+    align-items: center; /* Centers the content */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row; /* Places the rectangles in a row */
+    justify-content: space-between;
+    width: 100%; /* Takes up the full width available */
+}
+
+.card {
+    background-color: #E0E0E0; /* Light gray shade */
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    flex: 1; /* Allows each card to take up equal space */
+    margin: 0 10px; /* Adds some space between the cards */
+    text-align: justify;
+}
+
+.card:hover {
+    background-color: #D0D0D0; /* Slightly darker gray shade on hover */
+}
+
+.card h2 {
+    color: black;
+    margin-bottom: 10px; /* Adds some space between the header and paragraph */
+}
+
+.card p {
+    color: #555; /* Dark gray color */
+}
+
+.welcome {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 20px; /* Adds some space between the header and the cards */
+    text-align: center; /* Centers the header */
+}
+
+.unit {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.sp-red {
+color: #AA151B; /* Spanish flag red color */
+}
+
+.sp-yellow {
+color: #F7D117; /* Spanish flag yellow color */
+}
